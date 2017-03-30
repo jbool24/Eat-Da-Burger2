@@ -1,0 +1,96 @@
+:root {
+    --color1: #BE0C0C;
+    --color2: #B00808;
+    --color3: #FFD600;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100%;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+header, section, footer {
+    padding: 2em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+header, footer {
+    color: #fff;
+    background: var(--color1);
+    background: -moz-linear-gradient(top, #var(--color1) 0%, #var(--color2) 100%);
+    background: -webkit-linear-gradient(top, #var(--color1) 0%, #var(--color2) 100%);
+    background: linear-gradient(to bottom, #var(--color1) 0%, #var(--color2) 100%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+header div {
+    text-align: left;
+    padding-left: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+section {
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+section ul>li {
+    text-align: justify;
+    list-style-type: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: lightGray;
+}
+
+.burger-img {
+    width: 140px;
+    display: inline-block;
+}
+
+.burger-box {
+    display: flex;
+    margin: auto;
+    min-width: 60%;
+}
+
+.order-window {
+    flex: 2 0 auto;
+    margin: 10px;
+    padding: 1em;
+    width: 30%;
+    background-color: var(--color3);
+}
+
+.trash-bin {
+    margin: 10px;
+    padding: 1em;
+    width: 30%;
+    background-color: var(--color3);
+}
+
+.footer-box {
+    text-align: center;
+}

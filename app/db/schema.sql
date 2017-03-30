@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS burger_db;
+CREATE DATABASE burger_db;
+USE burger_db;
+
+CREATE TABLE burgers (
+  id INT AUTO_INCREMENT NOT NULL,
+  burger_name VARCHAR(25) NOT NULL,
+  devoured TINYINT(1) DEFAULT 0,
+  created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+);
