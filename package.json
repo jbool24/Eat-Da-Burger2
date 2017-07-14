@@ -17,6 +17,9 @@
     "url": "https://github.com/jbool24/Eat-Da-Burger/issues"
   },
   "homepage": "https://github.com/jbool24/Eat-Da-Burger#readme",
+  "engines": {
+    "node": "^7.10.0"
+  },
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
